@@ -3,7 +3,7 @@ import { useFrame } from '@react-three/fiber';
 import { easing } from 'maath';
 
 const HeroCamera = ({ isMobile, children }) => {
-  const group = useRef();
+  const group = useRef(); // Correct variable name is 'group'
 
   useFrame((state, delta) => {
     easing.damp3(state.camera.position, [0, 0, 20], 0.25, delta);
@@ -13,7 +13,11 @@ const HeroCamera = ({ isMobile, children }) => {
     }
   });
 
-  return <group ref={group}>{children}</group>;
+  return (
+    <group ref={group} scale={isMobile ? 1 : 1.3}>
+      {children}
+    </group>
+  );
 };
 
 export default HeroCamera;

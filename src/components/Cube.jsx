@@ -3,8 +3,7 @@
 */
 
 import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { Float, useGLTF, useTexture } from '@react-three/drei';
 
 const Cube = ({ ...props }) => {
@@ -15,7 +14,9 @@ const Cube = ({ ...props }) => {
   const cubeRef = useRef();
   const [hovered, setHovered] = useState(false);
 
-  useGSAP(() => {
+  useEffect(() => {
+    if (!cubeRef.current) return;
+
     gsap
       .timeline({
         repeat: -1,
@@ -29,7 +30,7 @@ const Cube = ({ ...props }) => {
           each: 0.15,
         },
       });
-  });
+  }, [hovered]); // Dependency array includes 'hovered'
 
   return (
     <Float floatIntensity={2}>
