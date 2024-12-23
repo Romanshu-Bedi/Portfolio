@@ -59,10 +59,10 @@ export const navLinks = [
   export const myProjects = [
     {
       title: 'Social Distribution',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      desc: 'A decentralized social media platform designed to empower users with seamless interconnectivity and enhanced privacy. Built using React, Django, and PostgreSQL, the platform enables a distributed communication network that redefines social interactions.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        'The platform features a REST API system that facilitates integration between different social media platforms, enabling users to view posts and follow others across multiple networks. Additionally, a robust inbox-based communication system has been implemented to allow the seamless exchange of posts, likes, and follow requests, enhancing user interaction and engagement across decentralized nodes.',
+      href: 'https://social-distribution-romanshu-147d125d5a24.herokuapp.com/login',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
