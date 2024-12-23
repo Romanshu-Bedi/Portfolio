@@ -36,10 +36,10 @@ const Hero = () => {
           <Suspense fallback={<CanvasLoader />}>
             {/* To hide controller */}
             <Leva hidden />
-            <PerspectiveCamera makeDefault position={[0, 0, 30]} />
+            <PerspectiveCamera makeDefault position={[0, 0, 20]} />
 
             <HeroCamera isMobile={isMobile}>
-              <HackerRoom scale={sizes.deskScale} position={sizes.deskPosition} rotation={[0.1, -Math.PI, 0]} />
+              <HackerRoom scale={sizes.deskScale} position={sizes.deskPosition} rotation={[0, -Math.PI, 0]} />
             </HeroCamera>
 
             <group>
@@ -56,7 +56,7 @@ const Hero = () => {
       </div>
 
       <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
-        <a href="#about" className="w-fit">
+        <a href="#Contact" className="w-fit">
           <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
         </a>
       </div>
