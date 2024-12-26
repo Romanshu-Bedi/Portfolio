@@ -20,7 +20,65 @@ export const navLinks = [
       href: '#contact',
     },
   ];
+   
+  export const technologies = [
   
+  {
+    name: "CSS",
+    icon: "/assets/icons/css.png",
+  },
+  
+  {
+    name: "C++",
+    icon: "/assets/icons/cpp_logo.png",
+  },
+  {
+    name: "JavaScript",
+    icon: "/assets/icons/javascript.png",
+  },
+  {
+    name: "React JS",
+    icon: "/assets/icons/reactjs.png",
+  },
+  {
+    name: "Node JS",
+    icon: "/assets/icons/nodejs.png",
+  },
+  {
+    name: "MongoDB",
+    icon: "/assets/icons/mongodb.png",
+  },
+  {
+    name: "Tailwind",
+    icon: "/assets/icons/tailwind.png",
+  },
+  {
+    name: "Docker",
+    icon: "/assets/icons/docker.png",
+  },
+  {
+    name: "Git",
+    icon: "/assets/icons/git.png",
+  },
+  {
+    name: "Figma",
+    icon: "/assets/icons/figma.png",
+  },
+  {
+    name: "Redux",
+    icon: "/assets/icons/redux.png",
+  },
+  {
+    name: "TypeScript",
+    icon: "/assets/icons/typescript.png",
+  },
+  {
+    name: "ThreeJS",
+    icon: "/assets/icons/threejs.svg",
+  },
+];
+
+
   export const clientReviews = [
     {
       id: 1,
