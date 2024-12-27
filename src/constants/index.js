@@ -120,9 +120,9 @@ export const navLinks = [
       desc: 'A decentralized social media platform designed to empower users with seamless interconnectivity and enhanced privacy. Built using React, Django, and PostgreSQL, the platform enables a distributed communication network that redefines social interactions.',
       subdesc:
         'The platform features a REST API system that facilitates integration between different social media platforms, enabling users to view posts and follow others across multiple networks. Additionally, a robust inbox-based communication system has been implemented to allow the seamless exchange of posts, likes, and follow requests, enhancing user interaction and engagement across decentralized nodes.',
-      href: 'https://social-distribution-romanshu-147d125d5a24.herokuapp.com/login',
+      href: 'https://social-distribution-romanshu-147d125d5a24.herokuapp.com',
       texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
+      logo: '/assets/project-logo1.png', // Correct logo path
       logoStyle: {
         backgroundColor: '#2A1816',
         border: '0.2px solid #36201D',
@@ -138,26 +138,27 @@ export const navLinks = [
         {
           id: 2,
           name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          path: 'assets/icons/javascript.png',
         },
         {
           id: 3,
           name: 'TypeScript',
-          path: '/assets/typescript.png',
+          path: '/assets/icons/html.png',
         },
         {
           id: 4,
           name: 'Framer Motion',
-          path: '/assets/framer.png',
+          path: '/assets/icons/heroku.png',
         },
       ],
     },
+
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'Smart Mirror Web Application',
+      desc: 'A responsive web application that provides real-time updates such as time, weather, news, and calendar events, built using modern web technologies. The application integrates APIs like OpenWeatherMap and NewsAPI to deliver dynamic and relevant information.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+        'The application features customizable widgets for to-do lists and motivational quotes, ensuring user-friendly interactions with persistent preferences stored via local storage. Additionally, the Google Calendar API is seamlessly integrated to display upcoming events, utilizing OAuth 2.0 authentication for secure and intuitive calendar access.',
+      href: 'https://smartmirror-ruby.vercel.app/',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
       logoStyle: {
@@ -180,12 +181,12 @@ export const navLinks = [
         {
           id: 3,
           name: 'TypeScript',
-          path: '/assets/typescript.png',
+          path: '/assets/icons/vuejs.png',
         },
         {
           id: 4,
           name: 'Framer Motion',
-          path: '/assets/framer.png',
+          path: '/assets/icons/html.png',
         },
       ],
     },
