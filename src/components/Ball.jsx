@@ -10,18 +10,14 @@ const BallShape = ({ imgUrl }) => {
   const [decal] = useTexture([imgUrl]);
 
   return (
-    <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
-      {/* Changed ambientLight from 0.25 to 0.5 */}
-      <ambientLight intensity={0.5} />
-
-      {/* Added intensity={1} to directionalLight, position remains the same */}
-      <directionalLight position={[0, 0, 0.05]} intensity={1} />
+    <Float speed={2} rotationIntensity={1.5} floatIntensity={1.2}>
+      <ambientLight intensity={0.6} />
+      <directionalLight position={[0, 0, 0.05]} intensity={1.2} />
 
       <mesh castShadow receiveShadow scale={2.75}>
-        {/* Changed color from "#fff8eb" to "#ffffff" */}
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
-          color="#ffffff"
+          color="#f0f0f0"
           polygonOffset
           polygonOffsetFactor={-5}
           flatShading
@@ -41,7 +37,7 @@ const BallShape = ({ imgUrl }) => {
 const Ball = ({ icon }) => {
   return (
     <Canvas
-      frameloop="demand"
+      frameloop="always"
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
