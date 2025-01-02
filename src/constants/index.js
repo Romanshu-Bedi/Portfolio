@@ -19,6 +19,11 @@ export const navLinks = [
       name: 'Contact',
       href: '#contact',
     },
+    {
+      id: 5,
+      name: 'Resume',
+      href: '/Romanshu_Bedi_Resume.pdf', // Updated to point to the resume file
+    },
   ];
    
   export const technologies = [
