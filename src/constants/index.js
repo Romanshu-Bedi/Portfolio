@@ -292,7 +292,7 @@ export const navLinks = [
       duration: 'May 2023 - Aug 2023',
       title: "At Ciferone Inc., I developed and maintained scalable web applications using Java, Python, and JavaScript. I collaborated with cross-functional teams to deliver high-quality projects on time. My work included code reviews, debugging, performance optimization, and designing solutions for complex technical challenges. This role strengthened my problem-solving skills and emphasized teamwork in achieving project success.",
       icon: '/assets/Ciferone.svg',
-      animation: 'victory',
+      animation: 'salute',
     },
     {
       id: 2,
