@@ -58,8 +58,8 @@ export const navLinks = [
     icon: "/assets/icons/tailwind.png",
   },
   {
-    name: "Docker",
-    icon: "/assets/icons/docker.png",
+    name: "Android",
+    icon: "/assets/icons/androidstudio.png",
   },
   {
     name: "Git",
